@@ -7,6 +7,7 @@
 <a name="english"></a>
 ## 🇺🇸 English
 
+<<<<<<< codex/create-readme-for-solar-dyi-iso
 Solar DIY ISO is a custom installer image that allows you to run **Solar DIY EMS** on your **own device**.
 
 This ISO is built on **Ubuntu 24.04.4 LTS Server**.
@@ -25,6 +26,19 @@ The link below is masked and configured to start the browser download directly.
 - **Filename example:** `solar-diy-v0.1.0.iso`
 - **Format:** ISO
 - **SHA256 checksum:** `cf3c3bef31847a5f9bdbfa73561586dd66177bcbcf2d1a421ceaccc7434f7241`
+=======
+Solar DIY ISO is a custom installer image that allows you to run **Solar Cube EMS** on your **own device**.
+
+This ISO is built on **Ubuntu 24.04.4 LTS Server**.
+
+### 💾 Download
+Because the file can be large, we recommend hosting it on a fast mirror (for example OneDrive).
+
+- **ISO download:** `ADD_DOWNLOAD_LINK_HERE`
+- **Version:** `0.1.0`
+- **Format:** ISO
+- **SHA256 checksum:** `ADD_SHA256_HERE`
+>>>>>>> main
 
 ### 🧰 Minimum hardware requirements
 Based on the target configuration below, the minimum recommended hardware is:
@@ -40,6 +54,7 @@ Based on the target configuration below, the minimum recommended hardware is:
 2. **Verify checksum** (recommended):
    - Linux/macOS:
      ```bash
+<<<<<<< codex/create-readme-for-solar-dyi-iso
      sha256sum solar-diy-v0.1.0.iso
      ```
    - Windows PowerShell:
@@ -73,6 +88,18 @@ Based on the target configuration below, the minimum recommended hardware is:
      3. Write image: `sudo dd if=solar-diy-v0.1.0.iso of=/dev/rdiskN bs=4m`.
      4. Wait for command to finish, then run: `sync`.
      5. Eject USB: `diskutil eject /dev/diskN`.
+=======
+     sha256sum solar-diy.iso
+     ```
+   - Windows PowerShell:
+     ```powershell
+     Get-FileHash .\solar-diy.iso -Algorithm SHA256
+     ```
+3. **Prepare a USB drive** (minimum 8 GB; all existing data will be erased).
+4. **Write ISO to USB**:
+   - **Windows:** [Rufus](https://rufus.ie)
+   - **Linux/macOS:** balenaEtcher or `dd`
+>>>>>>> main
 5. **Insert USB** into the target machine.
 6. **Open BIOS/UEFI** (`DEL`, `F2`, `F10`, or `ESC`, depending on device).
 7. **Set USB as first boot device** and reboot.
@@ -84,6 +111,7 @@ Based on the target configuration below, the minimum recommended hardware is:
 <a name="polski"></a>
 ## 🇵🇱 Polski
 
+<<<<<<< codex/create-readme-for-solar-dyi-iso
 Solar DIY ISO to niestandardowy obraz instalacyjny, który pozwala uruchomić **Solar DIY EMS** na **własnym urządzeniu**.
 
 To ISO zostało zbudowane na bazie **Ubuntu 24.04.4 LTS Server**.
@@ -102,6 +130,19 @@ Poniższy odnośnik jest ukryty pod etykietą i skonfigurowany tak, aby po klikn
 - **Przykładowa nazwa pliku:** `solar-diy-v0.1.0.iso`
 - **Format:** ISO
 - **Suma kontrolna SHA256:** `cf3c3bef31847a5f9bdbfa73561586dd66177bcbcf2d1a421ceaccc7434f7241`
+=======
+Solar DIY ISO to niestandardowy obraz instalacyjny, który pozwala uruchomić **Solar Cube EMS** na **własnym urządzeniu**.
+
+To ISO zostało zbudowane na bazie **Ubuntu 24.04.4 LTS Server**.
+
+### 💾 Pobieranie
+Ze względu na rozmiar pliku zalecamy hosting na szybkim serwerze lustrzanym (np. OneDrive).
+
+- **Pobieranie ISO:** `TUTAJ_WSTAW_LINK_DO_POBRANIA`
+- **Wersja:** `0.1.0`
+- **Format:** ISO
+- **Suma kontrolna SHA256:** `TUTAJ_WSTAW_SHA256`
+>>>>>>> main
 
 ### 🧰 Minimalne wymagania sprzętowe
 Na bazie docelowej konfiguracji minimalnie rekomendowane są:
@@ -117,6 +158,7 @@ Na bazie docelowej konfiguracji minimalnie rekomendowane są:
 2. **Zweryfikuj sumę kontrolną** (zalecane):
    - Linux/macOS:
      ```bash
+<<<<<<< codex/create-readme-for-solar-dyi-iso
      sha256sum solar-diy-v0.1.0.iso
      ```
    - Windows PowerShell:
@@ -150,6 +192,18 @@ Na bazie docelowej konfiguracji minimalnie rekomendowane są:
      3. Nagraj obraz: `sudo dd if=solar-diy-v0.1.0.iso of=/dev/rdiskN bs=4m`.
      4. Poczekaj na zakończenie polecenia, następnie wykonaj: `sync`.
      5. Wysuń USB: `diskutil eject /dev/diskN`.
+=======
+     sha256sum solar-diy.iso
+     ```
+   - Windows PowerShell:
+     ```powershell
+     Get-FileHash .\solar-diy.iso -Algorithm SHA256
+     ```
+3. **Przygotuj pendrive USB** (minimum 8 GB; wszystkie dane zostaną usunięte).
+4. **Wgraj ISO na USB**:
+   - **Windows:** [Rufus](https://rufus.ie)
+   - **Linux/macOS:** balenaEtcher lub `dd`
+>>>>>>> main
 5. **Podłącz USB** do urządzenia docelowego.
 6. **Wejdź do BIOS/UEFI** (`DEL`, `F2`, `F10` lub `ESC` — zależnie od sprzętu).
 7. **Ustaw bootowanie z USB** jako pierwsze i uruchom ponownie komputer.
