@@ -1,4 +1,4 @@
-# Solar DIY ISO / Solar DIY ISO
+# Solar DIY ISO Energy Management System
 
 [English](#english) | [Polski](#polski)
 
@@ -9,7 +9,7 @@
 
 Solar DIY ISO is a custom installer image that allows you to run **Solar DIY EMS** on your **own device**.
 
-This ISO is based on **Ubuntu 26.04**.
+This ISO is now based on **Ubuntu 26.04**.
 
 Solar DIY EMS is based on the Solar Cube EMS solution ([solarcube.io](https://solarcube.io)).
 When following Solar Cube documentation, replace these URLs as follows:
@@ -20,7 +20,7 @@ When following Solar Cube documentation, replace these URLs as follows:
 ### 💾 Download
 The link below is masked and configured to start the browser download directly.
 
-- **ISO download:** [Download ISO](https://roygard-my.sharepoint.com/:u:/g/personal/rafal_solarcube_io/IQAkUwdmPX_ST6VK5b_lE0UeAQQf6x-13OnEuq_QhcvmIb8?e=WizLOx&download=1)
+- **ISO download:** [Download ISO](https://roygard-my.sharepoint.com/:u:/g/personal/rafal_solarcube_io/IQCU6BefO0dpQrrH5y4hBhZ8Aazbf9J-x_zD51JKHdfUunk?e=QkMes0&download=1)
 - **Filename:** `solar_diy_20260428.iso`
 - **Format:** ISO
 - **SHA256 checksum:** `1fb2cb2b06f2e8a686f7062b179cc919a2da0a30b6aa66d9d6daf13bae189361`
@@ -37,7 +37,7 @@ The link below is masked and configured to start the browser download directly.
 | TPM | TPM 2.0 (**required** — disk encryption) |
 | CPU | x86_64, min. 2 cores (4 recommended) |
 | RAM | Min. 6 GB (8 GB recommended) |
-| Storage | Min. SSD 128 GB (256 GB+ recommended) |
+| Storage | Min. 128 GB (256 GB+ recommended) |
 | WiFi | WiFi card |
 | Ethernet | Min. 1x RJ45 port (2+ recommended) |
 | DMI/SMBIOS | Required (physical hardware) |
@@ -93,7 +93,7 @@ Before starting installation, configure BIOS/UEFI as follows:
    - **macOS (Terminal):**
      1. Find USB disk: `diskutil list`.
      2. Unmount disk: `diskutil unmountDisk /dev/diskN`.
-     3. Write image: `sudo dd if=solar_diy_20260428.iso of=/dev/rdiskN bs=4M status=progress oflag=sync`.
+     3. Write image: `sudo dd if=solar_diy_20260428.iso of=/dev/rdiskN bs=4m`.
      4. Wait for command to finish, then run: `sync`.
      5. Eject USB: `diskutil eject /dev/diskN`.
 5. **Insert USB** into the target machine.
@@ -109,7 +109,7 @@ Before starting installation, configure BIOS/UEFI as follows:
 
 Solar DIY ISO to niestandardowy obraz instalacyjny, który pozwala uruchomić **Solar DIY EMS** na **własnym urządzeniu**.
 
-Ten obraz bazuje na **Ubuntu 26.04**.
+Ten obraz bazuje teraz na **Ubuntu 26.04**.
 
 Solar DIY EMS działa na bazie rozwiązania Solar Cube EMS ([solarcube.io](https://solarcube.io)).
 Korzystając z instrukcji Solar Cube, zamieniaj adresy URL według poniższych zasad:
@@ -120,10 +120,10 @@ Korzystając z instrukcji Solar Cube, zamieniaj adresy URL według poniższych z
 ### 💾 Pobieranie
 Poniższy odnośnik jest ukryty pod etykietą i skonfigurowany tak, aby po kliknięciu od razu rozpocząć pobieranie w przeglądarce.
 
-- **Pobieranie ISO:** [Pobierz ISO](https://roygard-my.sharepoint.com/:u:/g/personal/rafal_solarcube_io/IQAkUwdmPX_ST6VK5b_lE0UeAQQf6x-13OnEuq_QhcvmIb8?e=WizLOx&download=1)
+- **Pobieranie ISO:** [Pobierz ISO](https://roygard-my.sharepoint.com/:u:/g/personal/rafal_solarcube_io/IQCU6BefO0dpQrrH5y4hBhZ8Aazbf9J-x_zD51JKHdfUunk?e=QkMes0&download=1)
 - **Nazwa pliku:** `solar_diy_20260428.iso`
 - **Format:** ISO
-- **Suma kontrolna SHA256:** `d9b4cab23c8754d87a303585c053db1d0a73dfeeb22f3380adc48349a7231aa1`
+- **Suma kontrolna SHA256:** `1fb2cb2b06f2e8a686f7062b179cc919a2da0a30b6aa66d9d6daf13bae189361`
 
 ### ⚠️ Ważne wymagania instalacyjne
 - Urządzenie docelowe **musi być podłączone do Internetu przez Ethernet/LAN** podczas instalacji.
@@ -137,7 +137,7 @@ Poniższy odnośnik jest ukryty pod etykietą i skonfigurowany tak, aby po klikn
 | TPM | TPM 2.0 (**obowiązkowe** — szyfrowanie dysku) |
 | CPU | x86_64, min. 2 rdzenie (zalecane 4) |
 | RAM | Min. 6 GB (zalecane 8 GB) |
-| Dysk | Min. SSD 128 GB (zalecane 256 GB+) |
+| Dysk | Min. 128 GB (zalecane 256 GB+) |
 | WiFi | Karta WiFi |
 | Ethernet | Min. 1 port RJ45 (zalecane 2+) |
 | DMI/SMBIOS | Wymagane (sprzęt fizyczny) |
@@ -193,7 +193,7 @@ Przed rozpoczęciem instalacji ustaw w BIOS/UEFI:
    - **macOS (Terminal):**
      1. Znajdź dysk USB: `diskutil list`.
      2. Odmontuj dysk: `diskutil unmountDisk /dev/diskN`.
-     3. Nagraj obraz: `sudo dd if=solar_diy_20260428.iso of=/dev/rdiskN bs=4M status=progress oflag=sync`.
+     3. Nagraj obraz: `sudo dd if=solar_diy_20260428.iso of=/dev/rdiskN bs=4m`.
      4. Poczekaj na zakończenie polecenia, następnie wykonaj: `sync`.
      5. Wysuń USB: `diskutil eject /dev/diskN`.
 5. **Podłącz USB** do urządzenia docelowego.
