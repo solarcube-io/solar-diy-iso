@@ -23,7 +23,7 @@ The link below is masked and configured to start the browser download directly.
 - **ISO download:** [Download ISO](https://roygard-my.sharepoint.com/:u:/g/personal/rafal_solarcube_io/IQAkUwdmPX_ST6VK5b_lE0UeAQQf6x-13OnEuq_QhcvmIb8?e=WizLOx&download=1)
 - **Filename:** `solar_diy_20260428.iso`
 - **Format:** ISO
-- **SHA256 checksum:** `d9b4cab23c8754d87a303585c053db1d0a73dfeeb22f3380adc48349a7231aa1`
+- **SHA256 checksum:** `1fb2cb2b06f2e8a686f7062b179cc919a2da0a30b6aa66d9d6daf13bae189361`
 
 ### ⚠️ Important installation requirements
 - The target device **must be connected to the Internet through Ethernet/LAN** during installation.
